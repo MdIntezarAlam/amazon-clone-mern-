@@ -1,0 +1,88 @@
+.middleBanner {
+    background-color: #fff;
+    width: 95vw;
+    min-height: 40vh;
+}
+
+.m_header {
+    display: flex;
+    padding: 15px;
+    align-items: center;
+}
+
+.m_header>span {
+    padding: 15px;
+}
+
+.text__ {
+    color: #000;
+    font-size: 22px;
+
+}
+
+.span {
+    color: rgb(9, 53, 53);
+    font-size: 19px;
+}
+
+.allContainer {
+    min-height: 45vh;
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 5px 70px 5px 20px;
+    background: transparent;
+    border-radius: 15px;
+    gap: 10px;
+}
+
+.m_box_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.m_box_one {
+    width: 230px;
+    height: 200px;
+    background-color: #dbd7d7;
+    display: flex;
+    border-radius: 10px;
+}
+
+.box_img {
+    width: 80%;
+    height: 90%;
+    margin: 10px auto;
+    background-color: transparent;
+}
+
+.m_box_one_bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+button {
+    width: 100px;
+    padding: 6px;
+    outline: 0;
+    border-radius: 5px;
+    border: 0;
+    background-color: red;
+    color: #fff;
+}
+
+.time {
+    color: red;
+    font-weight: 500;
+}
+
+.iphone {
+    color: #000;
+    margin-top: 10px;
+}

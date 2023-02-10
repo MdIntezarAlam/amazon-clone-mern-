@@ -1,0 +1,50 @@
+.freq {
+    width: 95vw;
+    min-height: 20vh;
+    background-color: #fff;
+    border-radius: 2px;
+    margin: 10px;
+}
+.freq_carasole {
+    vertical-align: middle;
+    overflow: auto;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    margin: 5px auto;
+    padding: 5px;
+
+}
+
+.img_flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.image_container_horigental {
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+    cursor: pointer;
+    object-fit: cover;
+}
+
+.heading {
+    font-size: 21px;
+    color: #000;
+    font-weight: 800;
+    line-height: 22px;
+    padding: 20px;
+}
+
+.freq_See {
+    color: rgb(29, 167, 167);
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.offer {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}

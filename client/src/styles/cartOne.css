@@ -1,0 +1,33 @@
+.cartOne {
+    height: 420px;
+    width: 340px;
+    background-color: #fff;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.title {
+    font-size: 22px;
+    line-height: 22px;
+    font-weight: 600;
+    padding: 15px;
+}
+
+.imgContainer {
+    width: 310px;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.imgContainer>img {
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+}
+
+.text {
+    font-size: 18px;
+    color: aqua;
+    padding-left: 20px;
+}

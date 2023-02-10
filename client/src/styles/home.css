@@ -1,0 +1,27 @@
+.home {
+  min-height: 100vh;
+  display: inline-block;
+  margin-top: 1px;
+}
+
+.banner {
+  background-image: url("../assets//banner.png");
+  height: 70vh;
+  width: 95%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0px auto;
+}
+
+.cart_container {
+  width: 100%;
+  margin-top: -250px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+}
+
